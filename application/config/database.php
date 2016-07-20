@@ -82,7 +82,7 @@ $db['default'] = array(
     'password' => $_ENV['DB_PASSWORD'],
     'database' => $_ENV['DB_DATABASE'],
     'dbdriver' => 'mysqli',
-    'dbprefix' => '',
+    'dbprefix' => $_ENV['DB_PREFIX'],
     'pconnect' => false,
     'db_debug' => (ENVIRONMENT !== 'production'),
     'cache_on' => false,
@@ -107,7 +107,7 @@ $capsule->addConnection([
     'password' => $db['default']['password'],
     'charset' => 'utf8',
     'collation' => 'utf8_unicode_ci',
-    'prefix' => '',
+    'prefix' => $db['default']['dbprefix'],
 ]);
 
 // Make this Capsule instance available globally via static methods... (optional)
