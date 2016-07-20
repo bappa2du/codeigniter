@@ -10,25 +10,36 @@ Modified version of codeigniter included some feature
 
 > Database credential will be placed in .env file in the root directory 
 
-### About Pagination
-To work with Pagination library perfectly load the `paginate` method in controller constructor. This
-pagination library support `bootstrap style pagination`.
-```sh
-public function paginate()
-{
-    $currentPage = isset($_GET['page']) ? (int) $_GET['page'] : 1;
-    Paginator::currentPageResolver(function () use ($currentPage) {
-      return $currentPage;
-    });
-}
-```
-
 ## Image Intervention System Requirements
 
    - PHP >= 5.4
    - Fileinfo Extension
    - GD Library (>=2.0) … or …
    - Imagick PHP extension (>=6.5.7)
+
+## Image Intervention Uses
+```sh
+use Intervention\Image\ImageManager;
+
+// Sample Method
+
+public function upload_image($image_file, $image_name)
+{
+    // default image driver is gd
+    $image = new ImageManager();
+    // For imagick driver
+    $image = new ImageManager(['driver' => 'imagick']);
+    $image->make($image_file)
+        ->resize(200, null, function ($constraint) {
+            $constraint->aspectRatio();
+        })
+        ->crop(200, 200)
+        ->save('upload/path/' . $image_name);
+}
+
+```
+  * [Intervention Image] - For Details Documentation
+  [Intervention Image]:<http://image.intervention.io/>
 
 ## Creating The Eloquent ORM
   - Codeigniter active recored/models will placed in default folder application/models dir.
@@ -43,6 +54,21 @@ $users = User::where('votes', '>', 1)->get();
 
 // For Pagination
 $users = User::paginate(10);
+```
+
+### About Pagination
+To work with Pagination library perfectly load the `paginate` method in controller constructor. This
+pagination library support `bootstrap style pagination`.
+```sh
+use Illuminate\Pagination\Paginator;
+
+public function paginate()
+{
+    $currentPage = isset($_GET['page']) ? (int) $_GET['page'] : 1;
+    Paginator::currentPageResolver(function () use ($currentPage) {
+      return $currentPage;
+    });
+}
 ```
 
 ### Version
