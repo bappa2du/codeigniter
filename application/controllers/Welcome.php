@@ -17,6 +17,8 @@ class Welcome extends CI_Controller
         view('welcome');
     }
 
+    /************Only for Example******************* 
+
     public function upload_image($image_file, $image_name)
     {
         // default image driver is gd
@@ -36,5 +38,7 @@ class Welcome extends CI_Controller
             return $currentPage;
         });
     }
+
+    *************************************************/
 
 }
