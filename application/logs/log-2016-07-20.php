@@ -79,3 +79,20 @@ ERROR - 2016-07-20 15:21:55 --> Severity: Warning --> mysqli::real_connect(): (H
 ERROR - 2016-07-20 15:21:55 --> Unable to connect to the database
 ERROR - 2016-07-20 15:22:11 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'database' /home/bappa/Desktop/CodeIgniter/system/database/drivers/mysqli/mysqli_driver.php 202
 ERROR - 2016-07-20 15:22:11 --> Unable to connect to the database
+ERROR - 2016-07-20 15:25:46 --> Severity: Notice --> Undefined variable: id /home/bappa/Desktop/CodeIgniter/application/controllers/Welcome.php 14
+ERROR - 2016-07-20 15:25:46 --> Severity: error --> Exception: Call to a member function connection() on null /home/bappa/Desktop/CodeIgniter/vendor/illuminate/database/Eloquent/Model.php 3282
+ERROR - 2016-07-20 15:28:04 --> Severity: Notice --> Undefined variable: id /home/bappa/Desktop/CodeIgniter/application/controllers/Welcome.php 14
+ERROR - 2016-07-20 15:28:04 --> Severity: error --> Exception: Call to a member function connection() on null /home/bappa/Desktop/CodeIgniter/vendor/illuminate/database/Eloquent/Model.php 3282
+ERROR - 2016-07-20 15:28:36 --> Severity: error --> Exception: Call to a member function connection() on null /home/bappa/Desktop/CodeIgniter/vendor/illuminate/database/Eloquent/Model.php 3282
+ERROR - 2016-07-20 15:28:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'database' /home/bappa/Desktop/CodeIgniter/system/database/drivers/mysqli/mysqli_driver.php 202
+ERROR - 2016-07-20 15:28:56 --> Unable to connect to the database
+ERROR - 2016-07-20 15:29:21 --> Severity: error --> Exception: Call to a member function connection() on null /home/bappa/Desktop/CodeIgniter/vendor/illuminate/database/Eloquent/Model.php 3282
+ERROR - 2016-07-20 15:30:00 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'database' /home/bappa/Desktop/CodeIgniter/system/database/drivers/mysqli/mysqli_driver.php 202
+ERROR - 2016-07-20 15:30:00 --> Unable to connect to the database
+ERROR - 2016-07-20 15:34:54 --> Severity: error --> Exception: Call to a member function connection() on null /home/bappa/Desktop/CodeIgniter/vendor/illuminate/database/Eloquent/Model.php 3282
+ERROR - 2016-07-20 15:35:17 --> Severity: error --> Exception: Call to a member function connection() on null /home/bappa/Desktop/CodeIgniter/vendor/illuminate/database/Eloquent/Model.php 3282
+ERROR - 2016-07-20 15:35:37 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'database' /home/bappa/Desktop/CodeIgniter/system/database/drivers/mysqli/mysqli_driver.php 202
+ERROR - 2016-07-20 15:35:37 --> Unable to connect to the database
+ERROR - 2016-07-20 15:36:00 --> Severity: error --> Exception: Call to a member function connection() on null /home/bappa/Desktop/CodeIgniter/vendor/illuminate/database/Eloquent/Model.php 3282
+ERROR - 2016-07-20 15:36:40 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'database' /home/bappa/Desktop/CodeIgniter/system/database/drivers/mysqli/mysqli_driver.php 202
+ERROR - 2016-07-20 15:36:40 --> Unable to connect to the database

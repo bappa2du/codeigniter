@@ -101,13 +101,13 @@ $capsule = new Capsule;
 
 $capsule->addConnection([
     'driver' => 'mysql',
-    'host' => $db['default']['hostname'],
-    'database' => $db['default']['database'],
-    'username' => $db['default']['username'],
-    'password' => $db['default']['password'],
+    'host' => $_ENV['DB_HOST'],
+    'database' => $_ENV['DB_DATABASE'],
+    'username' => $_ENV['DB_USER'],
+    'password' => $_ENV['DB_PASSWORD'],
     'charset' => 'utf8',
     'collation' => 'utf8_unicode_ci',
-    'prefix' => $db['default']['dbprefix'],
+    'prefix' => $_ENV['DB_PREFIX'],
 ]);
 
 // Make this Capsule instance available globally via static methods... (optional)

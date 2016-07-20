@@ -11,7 +11,7 @@ class Welcome extends CI_Controller
     {
         // $this->paginate();
         // $user = UserModel::paginate();
-        // $user = UserModel::find($id);
+        // $user = UserModel::get();
         // $user = UserModel::where('name',LIKE,'%Alex%');
         // dump($user);
         view('welcome');
