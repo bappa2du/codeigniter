@@ -3,9 +3,12 @@
 Modified version of codeigniter included some feature
 
   - Eloquent ORM
-  - PHP dotenv
+  - Pagination
+  - PHP dotenv(.env)
   - Intervation for Image Manupulation
   - Symphony vardumper
+
+> Database credential will be placed in .env file in the root directory 
 
 ## Image Intervention System Requirements
 
@@ -13,6 +16,11 @@ Modified version of codeigniter included some feature
    - Fileinfo Extension
    - GD Library (>=2.0) … or …
    - Imagick PHP extension (>=6.5.7)
+
+## Creating The Eloquent ORM
+  - Codeigniter active recored/models will placed in default folder application/models dir.
+  - Eloquent model will be placed in application/models dir.
+  - All Eloquent model will be autoload defined in application/config/autoload.php
 
 ## Using The Eloquent ORM
 ```sh
