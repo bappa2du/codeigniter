@@ -2,8 +2,6 @@
 
 defined('BASEPATH') or exit('No direct script access allowed');
 use Illuminate\Database\Capsule\Manager as Capsule;
-$dotenv = new Dotenv\Dotenv(FCPATH);
-$dotenv->load();
 
 /*
 | -------------------------------------------------------------------
