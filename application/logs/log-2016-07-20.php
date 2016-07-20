@@ -29,3 +29,4 @@ ERROR - 2016-07-20 13:00:24 --> Severity: Notice --> Undefined index: DB_HOST /h
 ERROR - 2016-07-20 13:12:42 --> Severity: error --> Exception: Call to undefined function view() /home/bappa/Desktop/CodeIgniter/application/controllers/Welcome.php 8
 ERROR - 2016-07-20 13:14:01 --> Severity: error --> Exception: Using $this when not in object context /home/bappa/Desktop/CodeIgniter/application/helpers/app_helper.php 5
 ERROR - 2016-07-20 13:22:58 --> 404 Page Not Found: Auth/authentication
+ERROR - 2016-07-20 14:01:16 --> Severity: error --> Exception: Class 'UserModel' not found /home/bappa/Desktop/CodeIgniter/application/controllers/Welcome.php 8

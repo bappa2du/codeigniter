@@ -10,6 +10,19 @@ Modified version of codeigniter included some feature
 
 > Database credential will be placed in .env file in the root directory 
 
+### About Pagination
+To work with Pagination library perfectly load the `paginate` method in controller constructor. This
+pagination library support `bootstrap style pagination`.
+```sh
+public function paginate()
+{
+    $currentPage = isset($_GET['page']) ? (int) $_GET['page'] : 1;
+    Paginator::currentPageResolver(function () use ($currentPage) {
+      return $currentPage;
+    });
+}
+```
+
 ## Image Intervention System Requirements
 
    - PHP >= 5.4
@@ -27,6 +40,9 @@ Modified version of codeigniter included some feature
 class User extends Illuminate\Database\Eloquent\Model {}
 
 $users = User::where('votes', '>', 1)->get();
+
+// For Pagination
+$users = User::paginate(10);
 ```
 
 ### Version
