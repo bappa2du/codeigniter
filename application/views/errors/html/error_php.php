@@ -1,17 +1,19 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 ?>
-
-<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
-
-<h4>A PHP Error was encountered</h4>
-
-<p>Severity: <?php echo $severity; ?></p>
-<p>Message:  <?php echo $message; ?></p>
-<p>Filename: <?php echo $filepath; ?></p>
-<p>Line Number: <?php echo $line; ?></p>
-
-<?php if (defined('SHOW_DEBUG_BACKTRACE') && SHOW_DEBUG_BACKTRACE === TRUE): ?>
+<link rel="stylesheet" href="public/assets/css/bootstrap.min.css">
+<div class="container" style="margin-top: 20px">
+<div class="panel panel-danger">
+	<div class="panel-heading">
+		<div class="panel-title">A PHP Error was encountered</div>
+	</div>
+	<div class="panel-body">
+		<p>Severity: <?php echo $severity; ?></p>
+		<p>Message:  <?php echo $message; ?></p>
+		<p>Filename: <?php echo $filepath; ?></p>
+		<p>Line Number: <?php echo $line; ?></p>
+		<hr>
+		<?php if (defined('SHOW_DEBUG_BACKTRACE') && SHOW_DEBUG_BACKTRACE === true): ?>
 
 	<p>Backtrace:</p>
 	<?php foreach (debug_backtrace() as $error): ?>
@@ -24,10 +26,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 			Function: <?php echo $error['function'] ?>
 			</p>
 
-		<?php endif ?>
+		<?php endif?>
 
-	<?php endforeach ?>
+	<?php endforeach?>
 
-<?php endif ?>
+<?php endif?>
+	</div>
+</div>
 
 </div>
