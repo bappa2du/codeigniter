@@ -73,3 +73,9 @@ ERROR - 2016-07-20 15:16:58 --> 404 Page Not Found: auth/Log/index
 ERROR - 2016-07-20 15:17:33 --> 404 Page Not Found: auth/Log/index
 ERROR - 2016-07-20 15:17:56 --> 404 Page Not Found: auth/Log/index
 ERROR - 2016-07-20 15:18:05 --> 404 Page Not Found: auth//index
+ERROR - 2016-07-20 15:19:56 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'database' /home/bappa/Desktop/CodeIgniter/system/database/drivers/mysqli/mysqli_driver.php 202
+ERROR - 2016-07-20 15:19:56 --> Unable to connect to the database
+ERROR - 2016-07-20 15:21:55 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'database' /home/bappa/Desktop/CodeIgniter/system/database/drivers/mysqli/mysqli_driver.php 202
+ERROR - 2016-07-20 15:21:55 --> Unable to connect to the database
+ERROR - 2016-07-20 15:22:11 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'database' /home/bappa/Desktop/CodeIgniter/system/database/drivers/mysqli/mysqli_driver.php 202
+ERROR - 2016-07-20 15:22:11 --> Unable to connect to the database

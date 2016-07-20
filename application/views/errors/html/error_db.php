@@ -8,6 +8,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 </head>
 <body>
 	<div class="container">
+		<div class="alert alert-danger">Check your database credential in <strong><ins>.env</ins></strong> file.</div>
 		<div class="panel panel-danger">
 			<div class="panel-heading">
 				<div class="panel-title"><?php echo $heading; ?></div>
