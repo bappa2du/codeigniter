@@ -43,7 +43,7 @@ public function upload_image($image_file, $image_name)
 
 ## Creating The Eloquent ORM
   - Codeigniter active recored/models will placed in default folder application/models dir.
-  - Eloquent model will be placed in application/models dir.
+  - Eloquent model will be placed in application/eloquent dir.
   - All Eloquent model will be autoload defined in application/config/autoload.php
 
 ## Using The Eloquent ORM
@@ -55,6 +55,9 @@ $users = User::where('votes', '>', 1)->get();
 // For Pagination
 $users = User::paginate(10);
 ```
+
+* [Eloquent ORM] - For Details Laravel Documentation
+  [Eloquent ORM]:<https://laravel.com/docs/5.2/eloquent>
 
 ### About Pagination
 To work with Pagination library perfectly load the `paginate` method in controller constructor. This
