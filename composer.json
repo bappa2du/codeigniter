@@ -17,7 +17,9 @@
 		"symfony/var-dumper": "^3.1",
 		"vlucas/phpdotenv": "^2.3",
 		"illuminate/pagination": "^5.2",
-		"cartalyst/sentinel": "2.0.*"
+		"cartalyst/sentinel": "2.0.*",
+		"illuminate/events": "^5.2",
+		"symfony/http-foundation": "^3.1"
 	},
 	"suggest": {
 		"paragonie/random_compat": "Provides better randomness in PHP 5.x"

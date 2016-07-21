@@ -6,6 +6,13 @@ class Authentication extends CI_Controller
 {
     public function login()
     {
+        $r = Sentinel::register([
+            'email'    => 'test@example.com',
+            'password' => 'foobar',
+            'user_name'=> 'Iftakharul Alam'
+        ]);
+        dump($r);
+        die();
         view('auth/login');
     }
 
