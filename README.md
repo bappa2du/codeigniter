@@ -9,6 +9,7 @@ Modified version of codeigniter included some feature
   - Intervation for Image Manupulation
   - Symphony vardumper
 
+
   * [Seninel] - For Details Documentation
     [Seninel]:<https://cartalyst.com/manual/sentinel/2.0>
 
