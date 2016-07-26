@@ -1,7 +1,6 @@
 <?php
 
-use Cartalyst\Sentinel\Native\Facades\Sentinel;
-use Symfony\Component\HttpFoundation\Request;
+use Illuminate\Support\Facades\Session as Session;
 
 class Authentication extends CI_Controller
 {
@@ -23,6 +22,8 @@ class Authentication extends CI_Controller
 
     public function attempt()
     {
+        dd(session(['bappa'=>'name']));
+        dd(Session::get('bappa'));
         $request = Request::createFromGlobals();
         Sentinel::forceAuthenticate($request->request->all());
         redirect('admin');

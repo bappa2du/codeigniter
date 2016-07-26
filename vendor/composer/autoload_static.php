@@ -7,8 +7,8 @@ namespace Composer\Autoload;
 class ComposerStaticInit9338b28f95561e9bf3bef69ce27e9c79
 {
     public static $files = array (
-        '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '5255c38a0faeba867671b61dfda6d864' => __DIR__ . '/..' . '/paragonie/random_compat/lib/random.php',
         '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
@@ -20,7 +20,6 @@ class ComposerStaticInit9338b28f95561e9bf3bef69ce27e9c79
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\Translation\\' => 30,
-            'Symfony\\Component\\HttpFoundation\\' => 33,
         ),
         'P' => 
         array (
@@ -31,7 +30,6 @@ class ComposerStaticInit9338b28f95561e9bf3bef69ce27e9c79
             'Intervention\\Image\\' => 19,
             'Illuminate\\Support\\' => 19,
             'Illuminate\\Pagination\\' => 22,
-            'Illuminate\\Events\\' => 18,
             'Illuminate\\Database\\' => 20,
             'Illuminate\\Contracts\\' => 21,
             'Illuminate\\Container\\' => 21,
@@ -46,8 +44,6 @@ class ComposerStaticInit9338b28f95561e9bf3bef69ce27e9c79
         ),
         'C' => 
         array (
-            'Cartalyst\\Support\\' => 18,
-            'Cartalyst\\Sentinel\\' => 19,
             'Carbon\\' => 7,
         ),
     );
@@ -65,10 +61,6 @@ class ComposerStaticInit9338b28f95561e9bf3bef69ce27e9c79
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
         ),
-        'Symfony\\Component\\HttpFoundation\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/http-foundation',
-        ),
         'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-message/src',
@@ -84,10 +76,6 @@ class ComposerStaticInit9338b28f95561e9bf3bef69ce27e9c79
         'Illuminate\\Pagination\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/pagination',
-        ),
-        'Illuminate\\Events\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/illuminate/events',
         ),
         'Illuminate\\Database\\' => 
         array (
@@ -108,14 +96,6 @@ class ComposerStaticInit9338b28f95561e9bf3bef69ce27e9c79
         'Dotenv\\' => 
         array (
             0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
-        ),
-        'Cartalyst\\Support\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/cartalyst/support/src',
-        ),
-        'Cartalyst\\Sentinel\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/cartalyst/sentinel/src',
         ),
         'Carbon\\' => 
         array (
