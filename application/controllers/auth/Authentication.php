@@ -1,6 +1,6 @@
 <?php
 
-use Cartalyst\Sentinel\Native\Facades\Sentinel;
+use Illuminate\Support\Facades\Session as Session;
 
 class Authentication extends CI_Controller
 {
@@ -9,18 +9,29 @@ class Authentication extends CI_Controller
         view('auth/login');
     }
 
+    public function index()
+    {
+        Sentinel::registerAndActivate([
+            'first_name'=>'bappa',
+            'last_name'=>'raz',
+            'email'=>'bappa2du@outlook.com',
+            'password'=>'bappa123',
+        ]);
+        echo 'Created';
+    }
+
     public function attempt()
     {
-        $r = Sentinel::register([
-            'email'    => 'test@example.com',
-            'password' => 'foobar',
-        ]);
-        dump($r);
+        dd(session(['bappa'=>'name']));
+        dd(Session::get('bappa'));
+        $request = Request::createFromGlobals();
+        Sentinel::forceAuthenticate($request->request->all());
+        redirect('admin');
     }
 
     public function logout()
     {
-        session_destroy();
+        Sentinel::logout();
         redirect(base_url());
     }
 }

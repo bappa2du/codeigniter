@@ -44,14 +44,14 @@
 		</nav>
 	<div class="container">
 		<div class="well">
-			<form action="">
+			<form action="auth/authentication/attempt" method="post">
 				<div class="form-group">
 					<label for="">Email</label>
-					<input type="email" class="form-control" placeholder="Email">
+					<input type="email" name="email" class="form-control" placeholder="Email">
 				</div>
 				<div class="form-group">
 					<label for="">Password</label>
-					<input type="password" class="form-control" placeholder="Password">
+					<input type="password" name="password" class="form-control" placeholder="Password">
 				</div>
 				<div class="form-group">
 					<button type="submit" class="btn btn-info">Login</button>
