@@ -79,5 +79,31 @@ public function paginate()
 }
 ```
 
+### Guzzle Http client
+Guzzle is a PHP HTTP client that makes it easy to send HTTP requests and trivial to integrate with web services.
+Example:
+
+```sh
+$client  = new \GuzzleHttp\Client(['http_errors' => false]);
+$URL='url here';
+$username='username';
+$password='password';
+$response = $client->get($URL, ['auth' => [$username, $password]]);
+// or like
+$response = $client->post('http://httpbin.org/post', [
+    'form_params' => [
+        'field_name' => 'abc',
+        'other_field' => '123',
+        'nested_field' => ['nested' => 'hello']
+    ]
+]);
+// return this response as object
+$object = json_decode($response->getBody()->getContents());
+```
+
+* [Guzzle] - For Details Guzzle Documentation
+  [Guzzle]:<http://docs.guzzlephp.org/en/latest/index.html>
+
+
 ### Version
 1.0

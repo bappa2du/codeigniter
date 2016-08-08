@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="33a054ed-22dd-4c8f-9a30-c947ffc00354" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/libraries/Auth.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/CodeIgniter.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/logs/log-2016-07-27.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/cache/ci_session648b621022852966dee8b42805125f1e503e68fa" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/cache/ci_session877af21e61b390c64b57c3e9cdb6c3acb26139b3" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/cache/ci_sessionc9509eb7bad079f9da72593b9f4a35be1874ed6d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/cache/ci_sessioneca0b37787b4829075f09b922127e08edb7cd813" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.env" afterPath="$PROJECT_DIR$/.env" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/Admin.php" afterPath="$PROJECT_DIR$/application/controllers/Admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/auth/Authentication.php" afterPath="$PROJECT_DIR$/application/controllers/auth/Authentication.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/eloquent/UserModel.php" afterPath="$PROJECT_DIR$/application/eloquent/UserModel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/app_helper.php" afterPath="$PROJECT_DIR$/application/helpers/app_helper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/autoload.php" afterPath="$PROJECT_DIR$/application/config/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/index.html" afterPath="$PROJECT_DIR$/application/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/eloquent/index.html" afterPath="$PROJECT_DIR$/application/eloquent/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/index.html" afterPath="$PROJECT_DIR$/uploads/index.html" />
-    </list>
+    <list default="true" id="33a054ed-22dd-4c8f-9a30-c947ffc00354" name="Default" comment="" />
     <ignored path="CodeIgniter.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -112,44 +88,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="CodeIgniter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeIgniter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeIgniter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeIgniter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeIgniter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="uploads" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeIgniter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CodeIgniter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
