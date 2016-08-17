@@ -2,7 +2,6 @@
 
 Modified version of codeigniter included some feature
 
-  - Setinel Auth (Authentication & Authorization)
   - Eloquent ORM
   - Pagination
   - PHP dotenv(.env)
