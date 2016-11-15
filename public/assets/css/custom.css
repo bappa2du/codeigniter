@@ -1,0 +1,14 @@
+.navbar,.btn{
+	border-radius: 0;
+}
+.list-group-item{
+	padding: 10px 7px;
+}
+.list-group .list-group-item i{
+	margin-right: 10px;
+	margin-left: 5px; 
+}
+div.page-content{
+	background: #f5f5f5;
+	border-radius: 3px;
+}

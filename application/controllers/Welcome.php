@@ -10,10 +10,16 @@ class Welcome extends CI_Controller
     public function index()
     {
         // $this->paginate();
-        $user = UserModel::paginate();
+        // $user = UserModel::paginate();
+        // UserModel::create([
+        //     'username'=>'bappa',
+        //     'password'=>password('bappa123'),
+        //     'email'=>'bappa2du@gmail.com',
+        //     'updated_at'=>time()
+        //     ]);
         // $user = UserModel::get();
         // $user = UserModel::where('name',LIKE,'%Alex%');
-        dump($user);
+        // dump($user);
         view('welcome');
     }
 

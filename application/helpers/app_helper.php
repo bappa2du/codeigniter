@@ -6,6 +6,13 @@ function view($view_file)
     $ci->load->view($view_file);
 }
 
+function template($view_file,$template,$data='')
+{
+    $ci = &get_instance();
+    $view_data['content'] = $ci->load->view($view_file,$data,true);
+    $ci->load->view($template,$view_data);
+}
+
 function session($param)
 {
     if (is_array($param)) {
@@ -40,4 +47,33 @@ function _get($param = null)
 function password($text, $encryption = PASSWORD_BCRYPT)
 {
     return password_hash($text, $encryption);
+}
+
+function set_auth($user_object)
+{
+    $_SESSION['auth_user'] = $user_object;
+}
+
+function auth_user()
+{
+    return $_SESSION['auth_user'];
+}
+
+function check_auth()
+{
+    if(isset($_SESSION['auth_user']))
+        return true;
+    return false;
+}
+
+function has_access()
+{
+    if(isset($_SESSION['auth_user']))
+        return true;
+    redirect('/');
+}
+
+function auth_destroy()
+{
+    unset($_SESSION['auth_user']);
 }

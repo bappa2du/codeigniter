@@ -74,3 +74,9 @@ ERROR - 2016-11-15 05:47:55 --> Unable to connect to the database
 ERROR - 2016-11-15 05:49:14 --> Severity: Warning --> mysqli::real_connect(): (HY000/1044): Access denied for user ''@'localhost' to database './application/eloquent/database.sqlite' C:\Users\Bappa\Desktop\codeigniter\system\database\drivers\mysqli\mysqli_driver.php 202
 ERROR - 2016-11-15 05:49:14 --> Unable to connect to the database
 ERROR - 2016-11-15 05:50:47 --> Severity: error --> Exception: SQLSTATE[HY000]: General error: 1 no such table: users (SQL: select count(*) as aggregate from "users") C:\Users\Bappa\Desktop\codeigniter\vendor\illuminate\database\Connection.php 713
+ERROR - 2016-11-15 06:54:49 --> Query error: No database selected - Invalid query: SELECT *
+FROM `users`
+WHERE `email` = 'bappa2du@gmail.com'
+ERROR - 2016-11-15 07:14:20 --> Severity: error --> Exception: syntax error, unexpected '}' C:\Users\Bappa\Desktop\codeigniter\application\helpers\app_helper.php 14
+ERROR - 2016-11-15 07:14:29 --> Severity: 4096 --> Object of class CI_Loader could not be converted to string C:\Users\Bappa\Desktop\codeigniter\application\views\admin\layout.php 46
+ERROR - 2016-11-15 07:14:56 --> Severity: 4096 --> Object of class CI_Loader could not be converted to string C:\Users\Bappa\Desktop\codeigniter\application\views\admin\layout.php 46

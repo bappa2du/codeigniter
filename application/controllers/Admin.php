@@ -7,6 +7,7 @@ class Admin extends CI_Controller
     function __construct()
     {
         parent::__construct();
+        has_access();
     }
 
     public function check_user()
@@ -15,7 +16,6 @@ class Admin extends CI_Controller
 
     public function index()
     {
-//        $this->check_user();
-        echo 'Login';
+        template('admin/dashboard','admin/layout');
     }
 }
