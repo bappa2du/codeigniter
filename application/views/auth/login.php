@@ -35,7 +35,7 @@
 					<input type="password" name="password" class="form-control" placeholder="Password" required="required" autocomplete="off">
 				</div>
 				<div class="form-group">
-					<button type="submit" class="btn btn-info">Login</button>
+					<button type="submit" class="btn btn-info btn-block">Login</button>
 				</div>
 			</form>
 		</div>
