@@ -20,24 +20,11 @@
 				</div>
 
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-					<ul class="nav navbar-nav">
-						<li class="active"><a href="#">Home</a></li>
-						<li><a href="auth/login">Login</a></li>
-					</ul>
+					
 
 					<ul class="nav navbar-nav navbar-right">
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">User <span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#">Action</a></li>
-								<li><a href="#">Another action</a></li>
-								<li><a href="#">Something else here</a></li>
-								<li class="divider"></li>
-								<li><a href="#">Separated link</a></li>
-								<li class="divider"></li>
-								<li><a href="#">One more separated link</a></li>
-							</ul>
-						</li>
+						<li><a href="auth/login">Login</a></li>
+						
 					</ul>
 				</div>
 			</div>
@@ -47,7 +34,7 @@
 		<div class="jumbotron">
 			<h1>Welcome Page</h1>
 			<p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-			<p><a class="btn btn-primary btn-lg">Learn more</a></p>
+			<p><a class="btn btn-primary btn-lg" href="auth/login">Admin Login</a></p>
 		</div>
 	</div>
 
